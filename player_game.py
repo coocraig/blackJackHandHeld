@@ -45,6 +45,7 @@ a8"     "" ""     `Y8 I8[    "" 88 88P'   `"8a a8"     "8a
             print(f"{i + 1}.) {hand[i]}")
 
         break
+        break
 
 def contains_Specific_Card(r, s, group):
     return any(c.rank == r and c.suit == s for c in group)
